@@ -368,32 +368,6 @@ public class DateUtils extends android.text.format.DateUtils{
 		return datetimeFormat.format(date);
 	}
 
-	
-	public static Date getStartTime(Date lastUpdateTime,
-			String latestDBTimestamp, long off) {
-		Date date = null;
-		if (lastUpdateTime != null) {
-			Log.d(TAG, "getstarttime:" + DateUtils.formatDatetime(lastUpdateTime));
-			lastUpdateTime.setTime(lastUpdateTime.getTime() - MONTH);
-		}
-		
-		if (!TextUtils.isEmpty(latestDBTimestamp)) {
-			try {
-				date = DateUtils.parseDatetime(latestDBTimestamp);
-			} catch (Exception e) {
-				Log.t(TAG, e);
-				date = lastUpdateTime;
-				date.setTime(date.getTime() + off);
-				return date;
-			}
-		} else if (lastUpdateTime != null) {
-			date = lastUpdateTime;
-			date.setTime(date.getTime() + off);
-		}
-		
-		return date;
-	}
-	
 	public static String getEndTimeString(Date startTime) {
 		Date endTime = new Date(System.currentTimeMillis());
 		if (endTime.before(startTime)) {
