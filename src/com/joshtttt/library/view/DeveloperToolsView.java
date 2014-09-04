@@ -1,15 +1,15 @@
-package com.joshtttt.jtlibrary.view;
+package com.joshtttt.library.view;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.zip.Inflater;
 
-import com.joshtttt.jtlibrary.R;
-import com.joshtttt.jtlibrary.network.Samba;
-import com.joshtttt.jtlibrary.util.DateUtils;
-import com.joshtttt.jtlibrary.util.Log;
-import com.joshtttt.jtlibrary.util.ZipUtil;
+import com.joshtttt.library.R;
+import com.joshtttt.library.network.Samba;
+import com.joshtttt.library.util.DateUtils;
+import com.joshtttt.library.util.Log;
+import com.joshtttt.library.util.ZipUtil;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

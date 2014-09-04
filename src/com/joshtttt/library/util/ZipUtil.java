@@ -1,4 +1,4 @@
-package com.joshtttt.jtlibrary.util;
+package com.joshtttt.library.util;
 
 public class ZipUtil {
 	

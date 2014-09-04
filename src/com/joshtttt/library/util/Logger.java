@@ -1,4 +1,4 @@
-package com.joshtttt.jtlibrary.util;
+package com.joshtttt.library.util;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

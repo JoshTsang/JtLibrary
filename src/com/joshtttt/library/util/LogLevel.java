@@ -21,7 +21,7 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package com.joshtttt.jtlibrary.util;
+package com.joshtttt.library.util;
 
 /**
  * LogLevel provides a set of static log levels that can be used as default.

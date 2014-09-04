@@ -1,4 +1,4 @@
-package com.joshtttt.jtlibrary.network;
+package com.joshtttt.library.network;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import com.joshtttt.jtlibrary.util.Log;
+import com.joshtttt.library.util.Log;
 
 import jcifs.smb.SmbFile;
 import jcifs.smb.SmbFileInputStream;
