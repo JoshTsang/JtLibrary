@@ -53,9 +53,9 @@ public class Log
         	android.util.Log.w(TAG, "Log path == null");
 		} else {
 			if (isService) {
-				filename = filename + "log_service.log";
+				filename = filename + "service.log";
 			} else {
-				filename = filename + "log.log";
+				filename = filename + "app.log";
 			}
 			
 		}

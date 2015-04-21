@@ -1,6 +1,9 @@
 <resources>
 
     <string name="app_name">JtLibrary</string>
+	<string name="app_versionTitle">版本号</string>
+	<string name="update_content">更新内容</string>
+	<string name="verion_on_ci_server">呃！18上有新版本！要不要更新下？</string>
 	<string name="no_sdcard">没有SD卡</string>
 	<string name="zip_failed">压缩失败</string>
 	<string name="upload_success">上传成功</string>
