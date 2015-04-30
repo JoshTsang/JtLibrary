@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="normal_text">18dp</dimen>
+    <dimen name="setting_submit">36dp</dimen>
+    <dimen name="main_title_text">10dp</dimen>
+    <dimen name="logout_height">32dp</dimen>
+    <dimen name="logout_margin_right">10dp</dimen>
+    <dimen name="btn_logout_text">14dp</dimen>
+    <dimen name="empty_data_text">20px</dimen>
+	<dimen name="list_title_text">22px</dimen>
+    <dimen name="list_text">18px</dimen>
+    
+    <dimen name="btn_height">30dp</dimen>
+	<dimen name="btn_size">10dp</dimen>
+	<dimen name="btn_width">34dp</dimen>
+	<dimen name="camera_layout">690px</dimen>
+	
+	<dimen name="rdo1">0dp</dimen>
+    <dimen name="rdo2">100dp</dimen>
+    <dimen name="rdo3">200dp</dimen>
+
+    <dimen name="task_info_padding">22sp</dimen>
+    <dimen name="task_test_padding">11sp</dimen>
+    <dimen name="test_task_edit_text_width">48sp</dimen>
+
+    <!-- slider -->
+    <dimen name="slider_margin">10dp</dimen>
+    <integer name="slider_max">100</integer>
+    <integer name="slider_weight">1</integer>
+
+</resources>
